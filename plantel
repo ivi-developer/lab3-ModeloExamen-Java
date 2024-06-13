@@ -1,0 +1,201 @@
+[
+  {
+    "numeroDeCamiseta": 10,
+    "EFutbolistaPosicion": "DELANTERO",
+    "nombre": "Lionel",
+    "apellido": "Messi",
+    "edad": 34,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "numeroDeCamiseta": 23,
+    "EFutbolistaPosicion": "ARQUERO",
+    "nombre": "Emiliano",
+    "apellido": "Martinez",
+    "edad": 30,
+    "eProfesion": "FUTBOLISTA"
+  },
+  {
+    "eEntrenadorSiestemaDeJuego": "SISTEMA_433",
+    "eEntrenadorEstilo": "POSESION",
+    "nombre": "Lionel",
+    "apellido": "Scaloni",
+    "edad": 48,
+    "eProfesion": "ENTRENADOR"
+  },
+  {
+    "metodologia": "Magia",
+    "nombre": "Pablo",
+    "apellido": "Aimar",
+    "edad": 49,
+    "eProfesion": "AYUDANTEDECAMPO"
+  }
+]

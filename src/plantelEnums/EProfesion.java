@@ -1,0 +1,5 @@
+package plantelEnums;
+
+public enum EProfesion {
+    AYUDANTEDECAMPO,ENTRENADOR,FUTBOLISTA,MASAJISTA,INTEGRANTE_PLANTEL
+}
