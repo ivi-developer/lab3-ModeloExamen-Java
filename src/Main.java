@@ -19,26 +19,22 @@ public class Main {
         try {
             do{
                 System.out.println("numero pibe");
-                switch (scanner.nextInt()){
-                    case 1:
-                        federacion.agregarAlPlantel(new Futbolista("Lionel","Messi",34, EProfesion.FUTBOLISTA,10, EFutbolistaPosicion.DELANTERO));
-                        federacion.agregarAlPlantel(new Futbolista("Emiliano", "Martinez",30,EProfesion.FUTBOLISTA,23,EFutbolistaPosicion.ARQUERO));
-                        for(int i=0;i<23;i++){
-                            federacion.agregarAlPlantel(new Futbolista("Emiliano", "Martinez",30,EProfesion.FUTBOLISTA,23,EFutbolistaPosicion.ARQUERO));
+                switch (scanner.nextInt()) {
+                    case 1 -> {
+                        federacion.agregarAlPlantel(new Futbolista("Lionel", "Messi", 34, EProfesion.FUTBOLISTA, 10, EFutbolistaPosicion.DELANTERO));
+                        federacion.agregarAlPlantel(new Futbolista("Emiliano", "Martinez", 30, EProfesion.FUTBOLISTA, 23, EFutbolistaPosicion.ARQUERO));
+                        for (int i = 0; i < 23; i++) {
+                            federacion.agregarAlPlantel(new Futbolista("Emiliano", "Martinez", 30, EProfesion.FUTBOLISTA, 23, EFutbolistaPosicion.ARQUERO));
                         }
-                        federacion.agregarAlPlantel(new Entrenador("Lionel","Scaloni",48,EProfesion.ENTRENADOR ,EEntrenadorSiestemaDeJuego.SISTEMA_433, EEntrenadorEstilo.POSESION));
-                        federacion.agregarAlPlantel(new Entrenador("Lionel","Scaloni",48, EProfesion.ENTRENADOR,EEntrenadorSiestemaDeJuego.SISTEMA_433, EEntrenadorEstilo.POSESION));
-                        federacion.agregarAlPlantel(new AyudanteDeCampo("Pablo","Aimar",49,EProfesion.AYUDANTEDECAMPO,"Magia"));
-                        break;
-                    case 2:
-                        federacion.guardarEnJson();
-                        break;
-                    case 3:
-                        federacion.leerDeJson();
-                        break;
-                    case 4:
-                        federacion.mostrarPlantel();
-                        break;
+                        federacion.agregarAlPlantel(new Entrenador("Lionel", "Scaloni", 48, EProfesion.ENTRENADOR, EEntrenadorSiestemaDeJuego.SISTEMA_433, EEntrenadorEstilo.POSESION));
+                        federacion.agregarAlPlantel(new Entrenador("Lionel", "Scaloni", 48, EProfesion.ENTRENADOR, EEntrenadorSiestemaDeJuego.SISTEMA_433, EEntrenadorEstilo.POSESION));
+                        federacion.agregarAlPlantel(new AyudanteDeCampo("Pablo", "Aimar", 49, EProfesion.AYUDANTEDECAMPO, "Magia"));
+                    }
+                    case 2 -> federacion.guardarEnJson();
+                    case 3 -> federacion.leerDeJson();
+                    case 4 -> federacion.mostrarPlantel();
+                    case 5 -> federacion.guardarEnTxt();
+                    case 6 -> federacion.leerDeTxt();
                 }
                 System.out.println("n para cortar");
             }while(!scanner.next().equalsIgnoreCase("n"));

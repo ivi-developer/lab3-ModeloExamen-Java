@@ -5,7 +5,9 @@ import plantelEnums.EProfesion;
 import plantelInterfaces.IAccionesPlantel;
 import plantelInterfaces.IJugarPartido;
 
-public class Futbolista extends IntegrantePlantel implements IJugarPartido, IAccionesPlantel {
+import java.io.Serializable;
+
+public class Futbolista extends IntegrantePlantel implements IJugarPartido, IAccionesPlantel, Serializable {
     private Integer numeroDeCamiseta;
     private plantelEnums.EFutbolistaPosicion EFutbolistaPosicion;
     public Futbolista(String nombre, String apellido, Integer edad, EProfesion eProfesion, Integer numeroDeCamiseta, EFutbolistaPosicion EFutbolistaPosicion) {

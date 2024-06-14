@@ -1,10 +1,7 @@
 package federacion;
 
-import com.google.gson.reflect.TypeToken;
 import gestor.GestoraPlantel;
 import plantelPersonal.IntegrantePlantel;
-
-import java.util.List;
 
 public class Federacion {
     private String nombre;
@@ -23,4 +20,6 @@ public class Federacion {
     public void mostrarPlantel(){gestoraPlantel.listar();}
     public void guardarEnJson(){gestoraPlantel.guardarEnJson();}
     public void leerDeJson(){gestoraPlantel.leerDesdeJson();}
+    public void guardarEnTxt(){gestoraPlantel.guardarEnTxt();}
+    public void leerDeTxt(){gestoraPlantel.leerDesdeTxt();}
 }

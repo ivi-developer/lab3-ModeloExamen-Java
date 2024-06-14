@@ -2,9 +2,10 @@ package plantelPersonal;
 
 import plantelEnums.EProfesion;
 
+import java.io.Serializable;
 import java.util.PropertyResourceBundle;
 
-public class IntegrantePlantel {
+public class IntegrantePlantel implements Serializable {
     private String nombre;
     private String apellido;
     private Integer edad;

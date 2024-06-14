@@ -4,7 +4,9 @@ import plantelEnums.EProfesion;
 import plantelInterfaces.IAccionesPlantel;
 import plantelInterfaces.IDarAsistencia;
 
-public class Masajista extends IntegrantePlantel implements IDarAsistencia, IAccionesPlantel {
+import java.io.Serializable;
+
+public class Masajista extends IntegrantePlantel implements IDarAsistencia, IAccionesPlantel, Serializable {
     private String titulo;
     private Integer aniosDeExperiencia;
     public Masajista(String nombre, String apellido, Integer edad, EProfesion eProfesion, String titulo, Integer aniosDeExperiencia) {

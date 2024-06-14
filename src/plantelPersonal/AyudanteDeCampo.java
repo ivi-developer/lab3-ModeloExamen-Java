@@ -1,11 +1,14 @@
 package plantelPersonal;
 
+import plantelEnums.EEntrenadorEstilo;
 import plantelEnums.EProfesion;
 import plantelInterfaces.IAccionesPlantel;
 import plantelInterfaces.IJugarPartido;
 import plantelInterfaces.IPrepararEnternamiento;
 
-public class AyudanteDeCampo extends IntegrantePlantel implements IJugarPartido, IPrepararEnternamiento, IAccionesPlantel {
+import java.io.Serializable;
+
+public class AyudanteDeCampo extends IntegrantePlantel implements IJugarPartido, IPrepararEnternamiento, IAccionesPlantel, Serializable {
     private String metodologia;
     public AyudanteDeCampo(String nombre, String apellido, Integer edad, EProfesion eProfesion, String metodologia) {
         super(nombre, apellido, edad,eProfesion);

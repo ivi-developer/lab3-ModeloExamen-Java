@@ -7,7 +7,9 @@ import plantelInterfaces.IAccionesPlantel;
 import plantelInterfaces.IJugarPartido;
 import plantelInterfaces.IPrepararEnternamiento;
 
-public class Entrenador extends IntegrantePlantel implements IJugarPartido, IPrepararEnternamiento, IAccionesPlantel {
+import java.io.Serializable;
+
+public class Entrenador extends IntegrantePlantel implements IJugarPartido, IPrepararEnternamiento, IAccionesPlantel, Serializable {
     private EEntrenadorSiestemaDeJuego eEntrenadorSiestemaDeJuego;
     private EEntrenadorEstilo eEntrenadorEstilo;
     public Entrenador(String nombre, String apellido, Integer edad, EProfesion eProfesion, EEntrenadorSiestemaDeJuego eEntrenadorSiestemaDeJuego, EEntrenadorEstilo eEntrenadorEstilo) {

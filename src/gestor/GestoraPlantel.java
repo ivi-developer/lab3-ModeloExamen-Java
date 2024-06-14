@@ -11,7 +11,6 @@ import java.util.List;
 public class GestoraPlantel <T extends IntegrantePlantel> {
     private List<T>plantel;
     private static final Integer TOPE_FUTBOLISTAS=23;
-
     public GestoraPlantel(){
         plantel=new ArrayList<>();
     }
@@ -73,6 +72,24 @@ public class GestoraPlantel <T extends IntegrantePlantel> {
                 if(integrante!=null)plantel.add(integrante);
             }
         }catch(FileNotFoundException e){
+            System.out.println(e.getMessage());
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public void guardarEnTxt(){
+        try(ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("plantelTXT"))){
+            oos.writeObject(plantel);
+        }catch (FileNotFoundException e){
+            System.out.println(e.getMessage());
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public void leerDesdeTxt(){
+        try(ObjectInputStream ois=new ObjectInputStream(new FileInputStream("plantelTXT"))){
+            plantel=(List<T>) ois.readObject();
+        }catch (FileNotFoundException | ClassNotFoundException e){
             System.out.println(e.getMessage());
         }catch (IOException e){
             e.printStackTrace();
