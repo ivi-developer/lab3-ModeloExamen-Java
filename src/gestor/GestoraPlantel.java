@@ -8,7 +8,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestoraPlantel <T extends IntegrantePlantel> {
+public class GestoraPlantel <T extends IntegrantePlantel>implements Serializable {
     private List<T>plantel;
     private static final Integer TOPE_FUTBOLISTAS=23;
     public GestoraPlantel(){

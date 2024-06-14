@@ -35,11 +35,15 @@ public class Main {
                     case 4 -> federacion.mostrarPlantel();
                     case 5 -> federacion.guardarEnTxt();
                     case 6 -> federacion.leerDeTxt();
+                    case 7-> federacion.guardarFederacionEnJson();
+                    case 8-> federacion.leerFederacionDeJson();
+                    case 9->federacion.guardarFederacionTxt();
+                    case 10->federacion.leerFederacionTxt();
                 }
                 System.out.println("n para cortar");
             }while(!scanner.next().equalsIgnoreCase("n"));
         }catch (InputMismatchException e){
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 }
