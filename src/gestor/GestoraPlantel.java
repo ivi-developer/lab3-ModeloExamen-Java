@@ -95,4 +95,10 @@ public class GestoraPlantel <T extends IntegrantePlantel>implements Serializable
             e.printStackTrace();
         }
     }
+    @Override
+    public String toString() {
+        return "GestoraPlantel{" +
+                "plantel=" + plantel +
+                '}';
+    }
 }

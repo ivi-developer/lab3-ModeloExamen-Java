@@ -36,9 +36,9 @@ public class Main {
                     case 5 -> federacion.guardarEnTxt();
                     case 6 -> federacion.leerDeTxt();
                     case 7-> federacion.guardarFederacionEnJson();
-                    case 8-> federacion.leerFederacionDeJson();
+                    case 8-> System.out.println(federacion.leerFederacionDeJson());
                     case 9->federacion.guardarFederacionTxt();
-                    case 10->federacion.leerFederacionTxt();
+                    case 10-> System.out.println(federacion.leerFederacionTxt());
                 }
                 System.out.println("n para cortar");
             }while(!scanner.next().equalsIgnoreCase("n"));
